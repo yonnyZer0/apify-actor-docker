@@ -60,7 +60,7 @@ Image is usable for the local debugging. User can see what is really done inside
 
 Default x11vnc port (5900) must be redirected to the localhost machine port:
 
-```dcoker build . -t your_image_tag && docker run -p 5900:5900 your_image_tag```
+```docker build . -t your_image_tag && docker run -p 5900:5900 your_image_tag```
 
 and can be accessed by cmd e.g.:
 
