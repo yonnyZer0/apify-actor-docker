@@ -56,9 +56,9 @@ Do the same for other images,
 
 ## yonny's image "node-chrome-xvfb-x11vnc"
 
-Image is usable for local docker run debugging. User can see what is done inside running container.
+Image is usable for the local debugging. User can see what is really done inside running container.
 
-Default x11vnc port (5900) must be redirected to localhost machine port.
+Default x11vnc port (5900) must be redirected to the localhost machine port:
 
 ```dcoker build . -t your_image_tag && docker run -p 5900:5900 your_image_tag```
 
