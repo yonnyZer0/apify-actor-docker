@@ -58,7 +58,7 @@ Do the same for other images,
 
 Image is usable for the local debugging. User can see what is really done inside running container.
 
-Default x11vnc port (5900) must be redirected to the local port:
+Default x11vnc port (5900) must be forwarded to the local port:
 
 ```docker build . -t your_image_tag && docker run -p 5900:5900 your_image_tag```
 
